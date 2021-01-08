@@ -1,2 +1,2 @@
-from evaluation.fid import get_fid
-from evaluation.evaluate import evaluate
+#from evaluation.fid import get_fid
+#from evaluation.evaluate import evaluate

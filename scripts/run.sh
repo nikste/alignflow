@@ -17,7 +17,7 @@ if [[ $1 == cyclegan ]]; then
         --crop_shape 128,128 \
         --resize_shape 144,144 \
         --data_dir data/$2 \
-        --gpu_ids 0,1,2,3 \
+        --gpu_ids 0 \
         --batch_size 32 \
         --iters_per_print 32 \
         --iters_per_visual 640 \
@@ -34,7 +34,7 @@ elif [[ $1 == cycleflow ]]; then
         --crop_shape 128,128 \
         --resize_shape 144,144 \
         --data_dir data/$2 \
-        --gpu_ids 0,1,2,3 \
+        --gpu_ids 0 \
         --batch_size 16 \
         --iters_per_print 16 \
         --iters_per_visual 320 \
@@ -54,8 +54,8 @@ elif [[ $1 == flow2flow ]]; then
         --crop_shape 128,128 \
         --resize_shape 144,144 \
         --data_dir data/$2 \
-        --gpu_ids 0,1,2,3 \
-        --batch_size 16 \
+        --gpu_ids 0 \
+        --batch_size 2 \
         --iters_per_print 16 \
         --iters_per_visual 320 \
         --norm_type instance \

@@ -2,7 +2,7 @@ import models
 
 from args import TrainArgParser
 from dataset import PairedDataset, UnpairedDataset
-from evaluation import evaluate
+from evaluation.evaluate import evaluate
 from evaluation.criteria import mse
 from logger import TrainLogger
 from saver import ModelSaver
